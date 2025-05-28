@@ -3,6 +3,12 @@ package bike;
 public class Bicicleta {
 	
 	 private int velocidade;
-	    private int marcha;
+	 private int marcha;
+	    
+	 public Bicicleta() {
+	     this.velocidade = 0;
+	     this.marcha = 0;
+	    }
+
 
 }
