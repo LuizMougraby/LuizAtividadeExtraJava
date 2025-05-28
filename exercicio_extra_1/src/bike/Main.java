@@ -18,6 +18,9 @@ public class Main {
     System.out.println("Freando...");
     minhaBicicleta.frear();
     minhaBicicleta.imprimirEstados();
-
-
+    
+    System.out.println("Freando novamente...");
+    minhaBicicleta.frear();
+    minhaBicicleta.imprimirEstados();
+    }
 }
