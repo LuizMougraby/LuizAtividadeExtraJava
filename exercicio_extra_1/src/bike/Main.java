@@ -10,6 +10,14 @@ public class Main {
     System.out.println("Acelerando...");
     minhaBicicleta.acelerar();
     minhaBicicleta.imprimirEstados();
+    
+    System.out.println("Acelerando novamente...");
+    minhaBicicleta.acelerar();
+    minhaBicicleta.imprimirEstados();
+
+    System.out.println("Freando...");
+    minhaBicicleta.frear();
+    minhaBicicleta.imprimirEstados();
 
 
 }
