@@ -13,6 +13,18 @@ public class Bicicleta {
 	        velocidade += 5;
 	        marcha++;
 	    }
+	 
+	 public void frear() {
+	        if (velocidade >= 5) {
+	            velocidade -= 5;
+	        } else {
+	            velocidade = 0;
+	        }
+
+	        if (marcha > 0) {
+	            marcha--;
+	        }
+	    }
 
 
 }
