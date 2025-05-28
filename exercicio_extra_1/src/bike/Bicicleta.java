@@ -9,6 +9,10 @@ public class Bicicleta {
 	     this.velocidade = 0;
 	     this.marcha = 0;
 	    }
+	 public void acelerar() {
+	        velocidade += 5;
+	        marcha++;
+	    }
 
 
 }
