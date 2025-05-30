@@ -36,6 +36,7 @@ public class Bicicleta {
 	 public void imprimirEstados() {
 	        System.out.println("Velocidade: " + velocidade + " km/h");
 	        System.out.println("Marcha: " + marcha);
+	        System.out.println("Velocidade Máxima: " + velocidadeMaxima + " km/h");
 	        System.out.println("-----------------------");
 	    }
 
