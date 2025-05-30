@@ -2,7 +2,7 @@ package bike;
 
 public class Main {
 	public static void main(String[] args) {
-        Bicicleta minhaBicicleta = new Bicicleta();
+        Bicicleta minhaBicicleta = new Bicicleta(10);
         
     System.out.println("Estado inicial:");
     minhaBicicleta.imprimirEstados();
