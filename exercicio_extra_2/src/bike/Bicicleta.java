@@ -11,9 +11,14 @@ public class Bicicleta {
 	        this.marcha = 0;
 	        this.velocidadeMaxima = velocidadeMaxima;
 	    }
+	 
 	 public void acelerar() {
-	        velocidade += 5;
-	        marcha++;
+	        if (velocidade + 5 <= velocidadeMaxima) {
+	            velocidade += 5;
+	            marcha++;
+	        } else {
+	            System.out.println("Velocidade máxima atingida. Não é possível acelerar mais.");
+	        }
 	    }
 	 
 	 public void frear() {
