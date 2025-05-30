@@ -14,6 +14,10 @@ public class Main {
     System.out.println("Acelerando novamente...");
     minhaBicicleta.acelerar();
     minhaBicicleta.imprimirEstados();
+    
+    System.out.println("Tentando acelerar além da velocidade máxima...");
+    minhaBicicleta.acelerar();
+    minhaBicicleta.imprimirEstados();
 
     System.out.println("Freando...");
     minhaBicicleta.frear();
