@@ -5,7 +5,10 @@ public class Zoologico {
 		Leao leao = new Leao();
         Peixe peixe = new Peixe();
         
-        
+        System.out.println("Comportamento do Leão:");
+        leao.emitirSom();
+        leao.alimentar();
+
 	}
 
 }
