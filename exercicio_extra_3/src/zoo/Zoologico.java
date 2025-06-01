@@ -9,6 +9,10 @@ public class Zoologico {
         leao.emitirSom();
         leao.alimentar();
 
+        System.out.println("\nComportamento do Peixe:");
+        peixe.emitirSom();
+        peixe.alimentar();
+        peixe.nadar();
 	}
 
 }
