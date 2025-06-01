@@ -10,5 +10,11 @@ public class Peixe extends Animal implements Aquatico{
 	public void alimentar() {
 	  System.out.println("O peixe está comendo algas.");
 	}
+	
+	@Override
+    public void nadar() {
+      System.out.println("O peixe nada rapidamente.");
+    }
+
 
 }
