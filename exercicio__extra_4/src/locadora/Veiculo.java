@@ -8,5 +8,9 @@ public abstract class Veiculo {
         this.modelo = modelo;
         this.ano = ano;
     }
+    
+    public void alugar() {
+        System.out.println("Veículo alugado: " + modelo + " (" + ano + ")");
+    }
 
 }
