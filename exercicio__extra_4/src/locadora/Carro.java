@@ -5,4 +5,9 @@ public class Carro extends Veiculo implements Motorizado {
         super(modelo, ano);
     }
 	
+	@Override
+    public void abastecer() {
+        System.out.println("Abastecendo o carro: " + modelo);
+    }
+	
 }
